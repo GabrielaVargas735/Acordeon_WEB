@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color:black;
+    margin: 0;
+}
+.boton-acordeon {
+    display: block;
+    padding: 15px;
+    outline: none;
+    background: #77b1f9;
+    text-align: center;
+    margin: 0 auto;
+}
+.boton-acordeon:hover {
+    background-color: indianred;
+}
+.boton-acordeon::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.link{
+    text-decoration: none;
+    color: #0645ad;
+}
+.boton-acordeon-active {
+    background: #012169;
+}
+.contenido {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: #eceaeb;
+}
+.img {
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.boton-acordeon white{
+    color: white;
+}
