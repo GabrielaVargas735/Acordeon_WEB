@@ -1,7 +1,6 @@
-let acordion = document.getElementsByClassName('boton-acordeon');
-
-for (let i = 0; i < acordion.length; i++) {
-    acordion[i].addEventListener('click', (event) => {
+let acordeon = document.getElementsByClassName('boton-acordeon');
+for (let i = 0; i < acordeon.length; i++) {
+    acordeon[i].addEventListener('click', (event) => {
         let x = event.currentTarget;
         x.classList.add('active');
         let y = x.nextElementSibling;
