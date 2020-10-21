@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    color:black;
     margin: 0;
 }
 .boton-acordeon {
@@ -12,27 +11,6 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-.boton-acordeon:hover {
-    background-color: indianred;
-}
-.boton-acordeon::after{
-    content: '\25be';
-    float: right;
-    transform: scale(1.5);
-}
-.link{
-    text-decoration: none;
-    color: #0645ad;
-}
-.boton-acordeon-active {
-    background: #012169;
-}
-.contenido {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background: #eceaeb;
-}
 .img {
     height: 300px;
     width: 500px;
@@ -41,6 +19,24 @@ body {
     margin-right: auto;
     padding: 15px;
 }
-.boton-acordeon white{
-    color: white;
+.link{
+    text-decoration: none;
+    color: #0645ad;
+}
+.contenido {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: #eceaeb;
+}
+.boton-acordeon:hover {
+    background-color: indianred;
+}
+.boton-acordeon::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.boton-acordeon-active {
+    background: #012169;
 }
